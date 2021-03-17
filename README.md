@@ -1,5 +1,5 @@
 # Freelance Graphix Designer
-<img src="freelance_graphix_designer/static/images/design-pic2.jpg" width="400px">
+<img src="freelance_graphix_designer/static/media/design-pic2.jpg" width="400px">
 
 * Milestone Project #4
 

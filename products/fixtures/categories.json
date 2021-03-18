@@ -1,0 +1,82 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "business_cards",
+            "friendly_name": "Business Cards"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "leaflets_flyers",
+            "friendly_name": "Leaflets and Flyers"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "posters",
+            "friendly_name": "Posters"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "icon_sets",
+            "friendly_name": "Icon Sets"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "brand_logos",
+            "friendly_name": "Brand Logos"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "web_banners",
+            "friendly_name": "Web Banners"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "digital",
+            "friendly_name": "Digital"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "printables",
+            "friendly_name": "Printables"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "sale_items",
+            "friendly_name": "Sale Items"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "packages",
+            "friendly_name": "Packages"
+        }
+    },
+]

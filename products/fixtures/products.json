@@ -420,7 +420,7 @@
         }
     },
     {
-        "pk": 37,
+        "pk": 36,
         "model": "products.product",
         "fields": {
             "sku": "fgd-4-011",
@@ -437,7 +437,7 @@
         "fields": {
             "sku": "fgd-4-012",
             "name": "icon",
-            "price": 7.99,
+            "price": 6.99,
             "category": 4,
             "rating": 4.4,
             "image": "icon-set_12.png"
@@ -449,7 +449,7 @@
         "fields": {
             "sku": "fgd-4-013",
             "name": "icon",
-            "price": 7.99,
+            "price": 6.49,
             "category": 4,
             "rating": 4.4,
             "image": "icon-set_13.png"
@@ -545,9 +545,9 @@
         "fields": {
             "sku": "fgd-2-001",
             "name": "flyer",
-            "price": 7.99,
+            "price": 9.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.4,
             "image": "leaflet-flyer_1.jpg"
         }
     },
@@ -557,7 +557,7 @@
         "fields": {
             "sku": "fgd-2-002",
             "name": "flyer",
-            "price": 7.99,
+            "price": 12.99,
             "category": 2,
             "rating": 4.1,
             "image": "leaflet-flyer_2.jpg"
@@ -569,7 +569,7 @@
         "fields": {
             "sku": "fgd-2-003",
             "name": "flyer",
-            "price": 7.99,
+            "price": 13.99,
             "category": 2,
             "rating": 4.1,
             "image": "leaflet-flyer_3.jpg"
@@ -581,7 +581,7 @@
         "fields": {
             "sku": "fgd-2-004",
             "name": "flyer",
-            "price": 7.99,
+            "price": 12.99,
             "category": 2,
             "rating": 4.1,
             "image": "leaflet-flyer_4.jpg"
@@ -593,7 +593,7 @@
         "fields": {
             "sku": "fgd-2-005",
             "name": "flyer",
-            "price": 7.99,
+            "price": 14.99,
             "category": 2,
             "rating": 4.1,
             "image": "leaflet-flyer_5.jpg"
@@ -605,9 +605,9 @@
         "fields": {
             "sku": "fgd-2-006",
             "name": "flyer",
-            "price": 7.99,
+            "price": 16.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.8,
             "image": "leaflet-flyer_6.jpg"
         }
     },
@@ -617,7 +617,7 @@
         "fields": {
             "sku": "fgd-2-007",
             "name": "flyer",
-            "price": 7.99,
+            "price": 11.99,
             "category": 2,
             "rating": 4.1,
             "image": "leaflet-flyer_7.jpg"
@@ -629,9 +629,9 @@
         "fields": {
             "sku": "fgd-2-008",
             "name": "flyer",
-            "price": 7.99,
+            "price": 12.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.4,
             "image": "leaflet-flyer_8.jpg"
         }
     },
@@ -641,9 +641,9 @@
         "fields": {
             "sku": "fgd-2-009",
             "name": "flyer",
-            "price": 7.99,
+            "price": 10.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.2,
             "image": "leaflet-flyer_9.jpg"
         }
     },
@@ -653,7 +653,7 @@
         "fields": {
             "sku": "fgd-2-010",
             "name": "flyer",
-            "price": 7.99,
+            "price": 12.49,
             "category": 2,
             "rating": 4.1,
             "image": "leaflet-flyer_10.jpg"
@@ -665,9 +665,9 @@
         "fields": {
             "sku": "fgd-2-011",
             "name": "flyer",
-            "price": 7.99,
+            "price": 12.49,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.3,
             "image": "leaflet-flyer_11.jpg"
         }
     },
@@ -677,9 +677,9 @@
         "fields": {
             "sku": "fgd-2-012",
             "name": "flyer",
-            "price": 7.99,
+            "price": 13.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.4,
             "image": "leaflet-flyer_12.jpg"
         }
     },
@@ -689,9 +689,9 @@
         "fields": {
             "sku": "fgd-2-013",
             "name": "flyer",
-            "price": 7.99,
+            "price": 11.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.5,
             "image": "leaflet-flyer_13.jpg"
         }
     },
@@ -701,9 +701,9 @@
         "fields": {
             "sku": "fgd-2-014",
             "name": "flyer",
-            "price": 7.99,
+            "price": 8.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 3.6,
             "image": "leaflet-flyer_14.jpg"
         }
     },
@@ -713,7 +713,7 @@
         "fields": {
             "sku": "fgd-2-015",
             "name": "flyer",
-            "price": 7.99,
+            "price": 9.99,
             "category": 2,
             "rating": 4.1,
             "image": "leaflet-flyer_15.jpg"
@@ -725,9 +725,9 @@
         "fields": {
             "sku": "fgd-2-016",
             "name": "flyer",
-            "price": 7.99,
+            "price": 12.49,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.4,
             "image": "leaflet-flyer_16.jpg"
         }
     },
@@ -737,9 +737,9 @@
         "fields": {
             "sku": "fgd-2-017",
             "name": "flyer",
-            "price": 7.99,
+            "price": 15.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.8,
             "image": "leaflet-flyer_17.jpg"
         }
     },
@@ -749,9 +749,9 @@
         "fields": {
             "sku": "fgd-2-018",
             "name": "flyer",
-            "price": 7.99,
+            "price": 10.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.5,
             "image": "leaflet-flyer_18.jpg"
         }
     },
@@ -761,9 +761,9 @@
         "fields": {
             "sku": "fgd-2-019",
             "name": "flyer",
-            "price": 7.99,
+            "price": 8.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 3.9,
             "image": "leaflet-flyer_19.jpg"
         }
     },
@@ -775,7 +775,7 @@
             "name": "flyer",
             "price": 7.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 3.8,
             "image": "leaflet-flyer_20.jpg"
         }
     },
@@ -785,9 +785,9 @@
         "fields": {
             "sku": "fgd-2-021",
             "name": "flyer",
-            "price": 7.99,
+            "price": 13.49,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.8,
             "image": "leaflet-flyer_21.jpg"
         }
     },
@@ -797,9 +797,9 @@
         "fields": {
             "sku": "fgd-2-022",
             "name": "flyer",
-            "price": 7.99,
+            "price": 17.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.9,
             "image": "leaflet-flyer_22.jpg"
         }
     },
@@ -809,9 +809,9 @@
         "fields": {
             "sku": "fgd-2-023",
             "name": "flyer",
-            "price": 7.99,
+            "price": 11.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.3,
             "image": "leaflet-flyer_23.jpg"
         }
     },
@@ -821,7 +821,7 @@
         "fields": {
             "sku": "fgd-2-024",
             "name": "flyer",
-            "price": 7.99,
+            "price": 10.99,
             "category": 2,
             "rating": 4.1,
             "image": "leaflet-flyer_24.jpg"
@@ -833,7 +833,7 @@
         "fields": {
             "sku": "fgd-2-025",
             "name": "flyer",
-            "price": 7.99,
+            "price": 8.99,
             "category": 2,
             "rating": 4.1,
             "image": "leaflet-flyer_25.jpg"
@@ -845,9 +845,9 @@
         "fields": {
             "sku": "fgd-2-026",
             "name": "flyer",
-            "price": 7.99,
+            "price": 9.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.2,
             "image": "leaflet-flyer_26.jpg"
         }
     },
@@ -857,9 +857,9 @@
         "fields": {
             "sku": "fgd-2-027",
             "name": "flyer",
-            "price": 7.99,
+            "price": 13.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.6,
             "image": "leaflet-flyer_27.jpg"
         }
     },
@@ -869,9 +869,9 @@
         "fields": {
             "sku": "fgd-2-028",
             "name": "flyer",
-            "price": 7.99,
+            "price": 11.49,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.3,
             "image": "leaflet-flyer_28.jpg"
         }
     },
@@ -881,7 +881,7 @@
         "fields": {
             "sku": "fgd-2-029",
             "name": "flyer",
-            "price": 7.99,
+            "price": 7.49,
             "category": 2,
             "rating": 4.1,
             "image": "leaflet-flyer_29.jpg"
@@ -905,7 +905,7 @@
         "fields": {
             "sku": "fgd-2-031",
             "name": "flyer",
-            "price": 7.99,
+            "price": 10.49,
             "category": 2,
             "rating": 4.1,
             "image": "leaflet-flyer_31.jpg"
@@ -917,21 +917,21 @@
         "fields": {
             "sku": "fgd-2-032",
             "name": "flyer",
-            "price": 7.99,
+            "price": 11.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.3,
             "image": "leaflet-flyer_32.jpg"
         }
     },
     {
-        "pk": 80,
+        "pk": 79,
         "model": "products.product",
         "fields": {
             "sku": "fgd-2-034",
             "name": "flyer",
-            "price": 7.99,
+            "price": 12.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.4,
             "image": "leaflet-flyer_34.jpg"
         }
     },
@@ -941,9 +941,9 @@
         "fields": {
             "sku": "fgd-2-035",
             "name": "flyer",
-            "price": 7.99,
+            "price": 13.99,
             "category": 2,
-            "rating": 4.1,
+            "rating": 4.5,
             "image": "leaflet-flyer_35.jpg"
         }
     },
@@ -965,7 +965,7 @@
         "fields": {
             "sku": "fgd-5-002",
             "name": "logo",
-            "price": 7.99,
+            "price": 8.99,
             "category": 5,
             "rating": 4.1,
             "image": "logo_2.png"
@@ -977,7 +977,7 @@
         "fields": {
             "sku": "fgd-5-003",
             "name": "logo",
-            "price": 7.99,
+            "price": 9.99,
             "category": 5,
             "rating": 4.1,
             "image": "logo_3.jpg"
@@ -989,19 +989,19 @@
         "fields": {
             "sku": "fgd-5-004",
             "name": "logo",
-            "price": 7.99,
+            "price": 10.99,
             "category": 5,
             "rating": 4.1,
             "image": "logo_4.jpg"
         }
     },
     {
-        "pk": 87,
+        "pk": 86,
         "model": "products.product",
         "fields": {
             "sku": "fgd-5-006",
             "name": "logo",
-            "price": 7.99,
+            "price": 10.99,
             "category": 5,
             "rating": 4.1,
             "image": "logo_6.jpg"
@@ -1013,7 +1013,7 @@
         "fields": {
             "sku": "fgd-5-007",
             "name": "logo",
-            "price": 7.99,
+            "price": 11.99,
             "category": 5,
             "rating": 4.1,
             "image": "logo_7.jpg"
@@ -1049,7 +1049,7 @@
         "fields": {
             "sku": "fgd-5-010",
             "name": "logo",
-            "price": 7.99,
+            "price": 8.49,
             "category": 5,
             "rating": 4.1,
             "image": "logo_10.jpg"
@@ -1061,7 +1061,7 @@
         "fields": {
             "sku": "fgd-5-011",
             "name": "logo",
-            "price": 7.99,
+            "price": 9.49,
             "category": 5,
             "rating": 4.1,
             "image": "logo_11.png"
@@ -1073,7 +1073,7 @@
         "fields": {
             "sku": "fgd-5-012",
             "name": "logo",
-            "price": 7.99,
+            "price": 10.39,
             "category": 5,
             "rating": 4.1,
             "image": "logo_12.jpg"
@@ -1085,7 +1085,7 @@
         "fields": {
             "sku": "fgd-5-013",
             "name": "logo",
-            "price": 7.99,
+            "price": 11.19,
             "category": 5,
             "rating": 4.1,
             "image": "logo_13.jpg"
@@ -1097,7 +1097,7 @@
         "fields": {
             "sku": "fgd-5-014",
             "name": "logo",
-            "price": 7.99,
+            "price": 12.59,
             "category": 5,
             "rating": 4.1,
             "image": "logo_14.jpg"
@@ -1109,7 +1109,7 @@
         "fields": {
             "sku": "fgd-5-015",
             "name": "logo",
-            "price": 7.99,
+            "price": 13.49,
             "category": 5,
             "rating": 4.1,
             "image": "logo_15.jpg"
@@ -1121,7 +1121,7 @@
         "fields": {
             "sku": "fgd-5-016",
             "name": "logo",
-            "price": 7.99,
+            "price": 13.69,
             "category": 5,
             "rating": 4.1,
             "image": "logo_16.jpg"
@@ -1133,7 +1133,7 @@
         "fields": {
             "sku": "fgd-5-017",
             "name": "logo",
-            "price": 7.99,
+            "price": 14.19,
             "category": 5,
             "rating": 4.1,
             "image": "logo_17.jpg"
@@ -1145,7 +1145,7 @@
         "fields": {
             "sku": "fgd-5-018",
             "name": "logo",
-            "price": 7.99,
+            "price": 14.19,
             "category": 5,
             "rating": 4.1,
             "image": "logo_18.jpg"
@@ -1157,9 +1157,9 @@
         "fields": {
             "sku": "fgd-5-019",
             "name": "logo",
-            "price": 7.99,
+            "price": 14.99,
             "category": 5,
-            "rating": 4.1,
+            "rating": 4.5,
             "image": "logo_19.jpg"
         }
     },
@@ -1169,7 +1169,7 @@
         "fields": {
             "sku": "fgd-5-020",
             "name": "logo",
-            "price": 7.99,
+            "price": 12.99,
             "category": 5,
             "rating": 4.1,
             "image": "logo_20.jpg"
@@ -1181,7 +1181,7 @@
         "fields": {
             "sku": "fgd-5-021",
             "name": "logo",
-            "price": 7.99,
+            "price": 14.99,
             "category": 5,
             "rating": 4.1,
             "image": "logo_21.jpg"
@@ -1193,7 +1193,7 @@
         "fields": {
             "sku": "fgd-5-022",
             "name": "logo",
-            "price": 7.99,
+            "price": 14.29,
             "category": 5,
             "rating": 4.1,
             "image": "logo_22.jpg"
@@ -1205,7 +1205,7 @@
         "fields": {
             "sku": "fgd-5-023",
             "name": "logo",
-            "price": 7.99,
+            "price": 13.39,
             "category": 5,
             "rating": 4.1,
             "image": "logo_23.jpg"
@@ -1217,9 +1217,9 @@
         "fields": {
             "sku": "fgd-5-024",
             "name": "logo",
-            "price": 7.99,
+            "price": 17.99,
             "category": 5,
-            "rating": 4.1,
+            "rating": 4.9,
             "image": "logo_24.jpg"
         }
     },
@@ -1229,7 +1229,7 @@
         "fields": {
             "sku": "fgd-5-025",
             "name": "logo",
-            "price": 7.99,
+            "price": 12.79,
             "category": 5,
             "rating": 4.1,
             "image": "logo_25.jpg"
@@ -1241,7 +1241,7 @@
         "fields": {
             "sku": "fgd-5-026",
             "name": "logo",
-            "price": 7.99,
+            "price": 13.69,
             "category": 5,
             "rating": 4.1,
             "image": "logo_26.jpg"
@@ -1253,7 +1253,7 @@
         "fields": {
             "sku": "fgd-5-027",
             "name": "logo",
-            "price": 7.99,
+            "price": 13.69,
             "category": 5,
             "rating": 4.1,
             "image": "logo_27.jpg"
@@ -1265,7 +1265,7 @@
         "fields": {
             "sku": "fgd-5-028",
             "name": "logo",
-            "price": 7.99,
+            "price": 12.09,
             "category": 5,
             "rating": 4.1,
             "image": "logo_28.png"
@@ -1277,7 +1277,7 @@
         "fields": {
             "sku": "fgd-5-029",
             "name": "logo",
-            "price": 7.99,
+            "price": 13.09,
             "category": 5,
             "rating": 4.1,
             "image": "logo_29.jpg"
@@ -1289,7 +1289,7 @@
         "fields": {
             "sku": "fgd-5-030",
             "name": "logo",
-            "price": 7.99,
+            "price": 14.09,
             "category": 5,
             "rating": 4.1,
             "image": "logo_30.jpg"
@@ -1301,7 +1301,7 @@
         "fields": {
             "sku": "fgd-5-031",
             "name": "logo",
-            "price": 7.99,
+            "price": 17.00,
             "category": 5,
             "rating": 4.1,
             "image": "logo_31.jpg"
@@ -1313,7 +1313,7 @@
         "fields": {
             "sku": "fgd-5-032",
             "name": "logo",
-            "price": 7.99,
+            "price": 12.09,
             "category": 5,
             "rating": 4.1,
             "image": "logo_32.jpg"
@@ -1325,7 +1325,7 @@
         "fields": {
             "sku": "fgd-5-033",
             "name": "logo",
-            "price": 7.99,
+            "price": 13.19,
             "category": 5,
             "rating": 4.1,
             "image": "logo_33.png"
@@ -1337,7 +1337,7 @@
         "fields": {
             "sku": "fgd-5-034",
             "name": "logo",
-            "price": 7.99,
+            "price": 14.09,
             "category": 5,
             "rating": 4.1,
             "image": "logo_34.jpg"
@@ -1349,7 +1349,7 @@
         "fields": {
             "sku": "fgd-5-035",
             "name": "logo",
-            "price": 7.99,
+            "price": 13.79,
             "category": 5,
             "rating": 4.1,
             "image": "logo_35.png"
@@ -1361,7 +1361,7 @@
         "fields": {
             "sku": "fgd-5-036",
             "name": "logo",
-            "price": 7.99,
+            "price": 12.99,
             "category": 5,
             "rating": 4.1,
             "image": "logo_36.jpg"
@@ -1373,9 +1373,9 @@
         "fields": {
             "sku": "fgd-5-037",
             "name": "logo",
-            "price": 7.99,
+            "price": 9.99,
             "category": 5,
-            "rating": 4.1,
+            "rating": 3.8,
             "image": "logo_37.jpg"
         }
     },
@@ -1385,7 +1385,7 @@
         "fields": {
             "sku": "fgd-5-038",
             "name": "logo",
-            "price": 7.99,
+            "price": 13.89,
             "category": 5,
             "rating": 4.1,
             "image": "logo_38.jpg"
@@ -1397,7 +1397,7 @@
         "fields": {
             "sku": "fgd-5-039",
             "name": "logo",
-            "price": 7.99,
+            "price": 12.49,
             "category": 5,
             "rating": 4.1,
             "image": "logo_39.jpg"
@@ -1409,7 +1409,7 @@
         "fields": {
             "sku": "fgd-5-040",
             "name": "logo",
-            "price": 7.99,
+            "price": 15.59,
             "category": 5,
             "rating": 4.1,
             "image": "logo_40.jpg"
@@ -1421,7 +1421,7 @@
         "fields": {
             "sku": "fgd-5-041",
             "name": "logo",
-            "price": 7.99,
+            "price": 12.29,
             "category": 5,
             "rating": 4.1,
             "image": "logo_41.jpg"
@@ -1433,7 +1433,7 @@
         "fields": {
             "sku": "fgd-5-042",
             "name": "logo",
-            "price": 7.99,
+            "price": 12.99,
             "category": 5,
             "rating": 4.1,
             "image": "logo_42.jpg"
@@ -1445,7 +1445,7 @@
         "fields": {
             "sku": "fgd-5-043",
             "name": "logo",
-            "price": 7.99,
+            "price": 12.99,
             "category": 5,
             "rating": 4.1,
             "image": "logo_43.png"
@@ -1457,7 +1457,7 @@
         "fields": {
             "sku": "fgd-5-044",
             "name": "logo",
-            "price": 7.99,
+            "price": 11.99,
             "category": 5,
             "rating": 4.1,
             "image": "logo_44.jpg"
@@ -1469,7 +1469,7 @@
         "fields": {
             "sku": "fgd-5-045",
             "name": "logo",
-            "price": 7.99,
+            "price": 14.19,
             "category": 5,
             "rating": 4.1,
             "image": "logo_45.jpg"
@@ -1481,7 +1481,7 @@
         "fields": {
             "sku": "fgd-5-046",
             "name": "logo",
-            "price": 7.99,
+            "price": 13.49,
             "category": 5,
             "rating": 4.1,
             "image": "logo_46.jpg"
@@ -1493,7 +1493,7 @@
         "fields": {
             "sku": "fgd-3-001",
             "name": "poster",
-            "price": 7.99,
+            "price": 27.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_1.jpg"
@@ -1505,7 +1505,7 @@
         "fields": {
             "sku": "fgd-3-002",
             "name": "poster",
-            "price": 7.99,
+            "price": 25.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_2.jpg"
@@ -1517,7 +1517,7 @@
         "fields": {
             "sku": "fgd-3-003",
             "name": "poster",
-            "price": 7.99,
+            "price": 31.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_3.jpg"
@@ -1529,7 +1529,7 @@
         "fields": {
             "sku": "fgd-3-004",
             "name": "poster",
-            "price": 7.99,
+            "price": 26.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_4.jpg"
@@ -1541,7 +1541,7 @@
         "fields": {
             "sku": "fgd-3-005",
             "name": "poster",
-            "price": 7.99,
+            "price": 23.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_5.jpg"
@@ -1553,7 +1553,7 @@
         "fields": {
             "sku": "fgd-3-006",
             "name": "poster",
-            "price": 7.99,
+            "price": 28.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_6.jpg"
@@ -1565,7 +1565,7 @@
         "fields": {
             "sku": "fgd-3-007",
             "name": "poster",
-            "price": 7.99,
+            "price": 26.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_7.jpg"
@@ -1577,7 +1577,7 @@
         "fields": {
             "sku": "fgd-3-008",
             "name": "poster",
-            "price": 7.99,
+            "price": 26.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_8.jpg"
@@ -1589,7 +1589,7 @@
         "fields": {
             "sku": "fgd-3-009",
             "name": "poster",
-            "price": 7.99,
+            "price": 31.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_9.jpg"
@@ -1601,7 +1601,7 @@
         "fields": {
             "sku": "fgd-3-010",
             "name": "poster",
-            "price": 7.99,
+            "price": 33.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_10.jpg"
@@ -1613,7 +1613,7 @@
         "fields": {
             "sku": "fgd-3-011",
             "name": "poster",
-            "price": 7.99,
+            "price": 30.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_11.jpg"
@@ -1625,7 +1625,7 @@
         "fields": {
             "sku": "fgd-3-012",
             "name": "poster",
-            "price": 7.99,
+            "price": 29.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_12.jpg"
@@ -1637,7 +1637,7 @@
         "fields": {
             "sku": "fgd-3-013",
             "name": "poster",
-            "price": 7.99,
+            "price": 29.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_13.jpg"
@@ -1649,7 +1649,7 @@
         "fields": {
             "sku": "fgd-3-014",
             "name": "poster",
-            "price": 7.99,
+            "price": 27.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_14.jpg"
@@ -1661,7 +1661,7 @@
         "fields": {
             "sku": "fgd-3-015",
             "name": "poster",
-            "price": 7.99,
+            "price": 27.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_15.jpg"
@@ -1673,7 +1673,7 @@
         "fields": {
             "sku": "fgd-3-016",
             "name": "poster",
-            "price": 7.99,
+            "price": 27.49,
             "category": 3,
             "rating": 4.1,
             "image": "poster_16.jpg"
@@ -1685,7 +1685,7 @@
         "fields": {
             "sku": "fgd-3-017",
             "name": "poster",
-            "price": 7.99,
+            "price": 26.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_17.jpg"
@@ -1697,7 +1697,7 @@
         "fields": {
             "sku": "fgd-3-018",
             "name": "poster",
-            "price": 7.99,
+            "price": 30.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_18.jpg"
@@ -1709,7 +1709,7 @@
         "fields": {
             "sku": "fgd-3-019",
             "name": "poster",
-            "price": 7.99,
+            "price": 27.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_19.png"
@@ -1721,7 +1721,7 @@
         "fields": {
             "sku": "fgd-3-020",
             "name": "poster",
-            "price": 7.99,
+            "price": 32.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_20.jpg"
@@ -1733,7 +1733,7 @@
         "fields": {
             "sku": "fgd-3-021",
             "name": "poster",
-            "price": 7.99,
+            "price": 29.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_21.jpg"
@@ -1745,7 +1745,7 @@
         "fields": {
             "sku": "fgd-3-022",
             "name": "poster",
-            "price": 7.99,
+            "price": 27.49,
             "category": 3,
             "rating": 4.1,
             "image": "poster_22.jpg"
@@ -1757,7 +1757,7 @@
         "fields": {
             "sku": "fgd-3-023",
             "name": "poster",
-            "price": 7.99,
+            "price": 24.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_23.jpg"
@@ -1769,7 +1769,7 @@
         "fields": {
             "sku": "fgd-3-024",
             "name": "poster",
-            "price": 7.99,
+            "price": 25.99,
             "category": 3,
             "rating": 4.1,
             "image": "poster_24.jpg"
@@ -1781,7 +1781,7 @@
         "fields": {
             "sku": "fgd-3-025",
             "name": "poster",
-            "price": 7.99,
+            "price": 27.19,
             "category": 3,
             "rating": 4.1,
             "image": "poster_25.jpg"
@@ -1793,7 +1793,7 @@
         "fields": {
             "sku": "fgd-3-026",
             "name": "poster",
-            "price": 7.99,
+            "price": 29.49,
             "category": 3,
             "rating": 4.1,
             "image": "poster_26.jpg"
@@ -1805,7 +1805,7 @@
         "fields": {
             "sku": "fgd-6-001",
             "name": "banner",
-            "price": 7.99,
+            "price": 29.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_1.jpg"
@@ -1817,7 +1817,7 @@
         "fields": {
             "sku": "fgd-6-002",
             "name": "banner",
-            "price": 7.99,
+            "price": 26.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_2.jpg"
@@ -1829,7 +1829,7 @@
         "fields": {
             "sku": "fgd-6-003",
             "name": "banner",
-            "price": 7.99,
+            "price": 27.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_3.jpg"
@@ -1841,7 +1841,7 @@
         "fields": {
             "sku": "fgd-6-004",
             "name": "banner",
-            "price": 7.99,
+            "price": 30.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_4.jpg"
@@ -1853,7 +1853,7 @@
         "fields": {
             "sku": "fgd-6-005",
             "name": "banner",
-            "price": 7.99,
+            "price": 32.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_5.jpg"
@@ -1865,7 +1865,7 @@
         "fields": {
             "sku": "fgd-6-006",
             "name": "banner",
-            "price": 7.99,
+            "price": 33.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_6.jpg"
@@ -1877,7 +1877,7 @@
         "fields": {
             "sku": "fgd-6-007",
             "name": "banner",
-            "price": 7.99,
+            "price": 29.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_7.jpg"
@@ -1889,7 +1889,7 @@
         "fields": {
             "sku": "fgd-6-008",
             "name": "banner",
-            "price": 7.99,
+            "price": 27.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_8.jpg"
@@ -1901,7 +1901,7 @@
         "fields": {
             "sku": "fgd-6-009",
             "name": "banner",
-            "price": 7.99,
+            "price": 29.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_9.jpg"
@@ -1913,19 +1913,19 @@
         "fields": {
             "sku": "fgd-6-010",
             "name": "banner",
-            "price": 7.99,
+            "price": 31.50,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_10.jpg"
         }
     },
     {
-        "pk": 165,
+        "pk": 164,
         "model": "products.product",
         "fields": {
             "sku": "fgd-6-012",
             "name": "banner",
-            "price": 7.99,
+            "price": 27.50,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_12.jpg"
@@ -1937,7 +1937,7 @@
         "fields": {
             "sku": "fgd-6-013",
             "name": "banner",
-            "price": 7.99,
+            "price": 32.49,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_13.jpg"
@@ -1949,7 +1949,7 @@
         "fields": {
             "sku": "fgd-6-014",
             "name": "banner",
-            "price": 7.99,
+            "price": 34.19,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_14.jpg"
@@ -1961,7 +1961,7 @@
         "fields": {
             "sku": "fgd-6-015",
             "name": "banner",
-            "price": 7.99,
+            "price": 29.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_15.jpg"
@@ -1973,7 +1973,7 @@
         "fields": {
             "sku": "fgd-6-016",
             "name": "banner",
-            "price": 7.99,
+            "price": 31.50,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_16.jpg"
@@ -1985,7 +1985,7 @@
         "fields": {
             "sku": "fgd-6-017",
             "name": "banner",
-            "price": 7.99,
+            "price": 32.00,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_17.jpg"
@@ -1997,7 +1997,7 @@
         "fields": {
             "sku": "fgd-6-018",
             "name": "banner",
-            "price": 7.99,
+            "price": 27.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_18.jpg"
@@ -2009,7 +2009,7 @@
         "fields": {
             "sku": "fgd-6-019",
             "name": "banner",
-            "price": 7.99,
+            "price": 28.50,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_19.jpg"
@@ -2021,7 +2021,7 @@
         "fields": {
             "sku": "fgd-6-020",
             "name": "banner",
-            "price": 7.99,
+            "price": 23.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_20.jpg"
@@ -2033,7 +2033,7 @@
         "fields": {
             "sku": "fgd-6-021",
             "name": "banner",
-            "price": 7.99,
+            "price": 27.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_21.jpg"
@@ -2045,7 +2045,7 @@
         "fields": {
             "sku": "fgd-6-022",
             "name": "banner",
-            "price": 7.99,
+            "price": 32.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_22.jpg"
@@ -2057,7 +2057,7 @@
         "fields": {
             "sku": "fgd-6-023",
             "name": "banner",
-            "price": 7.99,
+            "price": 30.99,
             "category": 6,
             "rating": 4.1,
             "image": "web-banner_23.jpg"

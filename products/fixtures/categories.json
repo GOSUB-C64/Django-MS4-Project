@@ -75,8 +75,8 @@
         "pk": 10,
         "model": "products.category",
         "fields": {
-            "name": "packages",
-            "friendly_name": "Packages"
+            "name": "new_stock",
+            "friendly_name": "New Stock"
         }
     }
 ]

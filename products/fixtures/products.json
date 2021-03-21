@@ -54,7 +54,7 @@
             "sku": "fgd-1-005",
             "name": "card",
             "price": 6.99,
-            "category": 1,
+            "category": 9,
             "rating": 4.7,
             "image": "business-card_5.jpg"
         }
@@ -66,7 +66,7 @@
             "sku": "fgd-1-006",
             "name": "card",
             "price": 5.99,
-            "category": 1,
+            "category": 9,
             "rating": 4.7,
             "image": "business-card_6.jpg"
         }
@@ -78,7 +78,7 @@
             "sku": "fgd-1-007",
             "name": "card",
             "price": 7.99,
-            "category": 1,
+            "category": 9,
             "rating": 4.7,
             "image": "business-card_7.jpg"
         }
@@ -90,7 +90,7 @@
             "sku": "fgd-1-008",
             "name": "card",
             "price": 10.99,
-            "category": 1,
+            "category": 10,
             "rating": 4.7,
             "image": "business-card_8.jpg"
         }
@@ -114,7 +114,7 @@
             "sku": "fgd-1-010",
             "name": "card",
             "price": 11.99,
-            "category": 1,
+            "category": 10,
             "rating": 4.7,
             "image": "business-card_10.jpg"
         }
@@ -126,7 +126,7 @@
             "sku": "fgd-1-011",
             "name": "card",
             "price": 8.99,
-            "category": 1,
+            "category": 9,
             "rating": 4.7,
             "image": "business-card_11.jpg"
         }
@@ -138,7 +138,7 @@
             "sku": "fgd-1-012",
             "name": "card",
             "price": 7.99,
-            "category": 1,
+            "category": 9,
             "rating": 4.7,
             "image": "business-card_12.jpg"
         }
@@ -222,7 +222,7 @@
             "sku": "fgd-1-019",
             "name": "card",
             "price": 6.99,
-            "category": 1,
+            "category": 9,
             "rating": 4.7,
             "image": "business-card_19.jpg"
         }
@@ -234,7 +234,7 @@
             "sku": "fgd-1-020",
             "name": "card",
             "price": 10.99,
-            "category": 1,
+            "category": 10,
             "rating": 4.7,
             "image": "business-card_20.jpg"
         }
@@ -246,7 +246,7 @@
             "sku": "fgd-1-021",
             "name": "card",
             "price": 11.99,
-            "category": 1,
+            "category": 10,
             "rating": 4.7,
             "image": "business-card_21.jpg"
         }
@@ -258,7 +258,7 @@
             "sku": "fgd-1-022",
             "name": "card",
             "price": 6.99,
-            "category": 1,
+            "category": 9,
             "rating": 4.7,
             "image": "business-card_22.jpg"
         }
@@ -282,7 +282,7 @@
             "sku": "fgd-1-024",
             "name": "music",
             "price": 5.99,
-            "category": 1,
+            "category": 9,
             "rating": 4.7,
             "image": "business-card_24.jpg"
         }
@@ -306,7 +306,7 @@
             "sku": "fgd-1-026",
             "name": "card",
             "price": 10.99,
-            "category": 1,
+            "category": 10,
             "rating": 4.7,
             "image": "business-card_26.jpg"
         }
@@ -378,7 +378,7 @@
             "sku": "fgd-4-006",
             "name": "icon",
             "price": 12.99,
-            "category": 4,
+            "category": 10,
             "rating": 4.9,
             "image": "icon-set_6.png"
         }
@@ -426,7 +426,7 @@
             "sku": "fgd-4-011",
             "name": "icon",
             "price": 12.99,
-            "category": 4,
+            "category": 10,
             "rating": 4.9,
             "image": "icon-set_11.png"
         }
@@ -462,7 +462,7 @@
             "sku": "fgd-4-014",
             "name": "icon",
             "price": 11.99,
-            "category": 4,
+            "category": 10,
             "rating": 4.8,
             "image": "icon-set_14.png"
         }
@@ -558,7 +558,7 @@
             "sku": "fgd-2-002",
             "name": "flyer",
             "price": 12.99,
-            "category": 2,
+            "category": 10,
             "rating": 4.1,
             "image": "leaflet-flyer_2.jpg"
         }
@@ -594,7 +594,7 @@
             "sku": "fgd-2-005",
             "name": "flyer",
             "price": 14.99,
-            "category": 2,
+            "category": 10,
             "rating": 4.1,
             "image": "leaflet-flyer_5.jpg"
         }
@@ -606,7 +606,7 @@
             "sku": "fgd-2-006",
             "name": "flyer",
             "price": 16.99,
-            "category": 2,
+            "category": 10,
             "rating": 4.8,
             "image": "leaflet-flyer_6.jpg"
         }
@@ -702,7 +702,7 @@
             "sku": "fgd-2-014",
             "name": "flyer",
             "price": 8.99,
-            "category": 2,
+            "category": 9,
             "rating": 3.6,
             "image": "leaflet-flyer_14.jpg"
         }
@@ -714,7 +714,7 @@
             "sku": "fgd-2-015",
             "name": "flyer",
             "price": 9.99,
-            "category": 2,
+            "category": 9,
             "rating": 4.1,
             "image": "leaflet-flyer_15.jpg"
         }
@@ -774,7 +774,7 @@
             "sku": "fgd-2-020",
             "name": "flyer",
             "price": 7.99,
-            "category": 2,
+            "category": 9,
             "rating": 3.8,
             "image": "leaflet-flyer_20.jpg"
         }
@@ -834,7 +834,7 @@
             "sku": "fgd-2-025",
             "name": "flyer",
             "price": 8.99,
-            "category": 2,
+            "category": 9,
             "rating": 4.1,
             "image": "leaflet-flyer_25.jpg"
         }
@@ -882,7 +882,7 @@
             "sku": "fgd-2-029",
             "name": "flyer",
             "price": 7.49,
-            "category": 2,
+            "category": 9,
             "rating": 4.1,
             "image": "leaflet-flyer_29.jpg"
         }
@@ -894,7 +894,7 @@
             "sku": "fgd-2-030",
             "name": "flyer",
             "price": 7.99,
-            "category": 2,
+            "category": 9,
             "rating": 4.1,
             "image": "leaflet-flyer_30.jpg"
         }
@@ -990,7 +990,7 @@
             "sku": "fgd-5-004",
             "name": "logo",
             "price": 10.99,
-            "category": 5,
+            "category": 10,
             "rating": 4.1,
             "image": "logo_4.jpg"
         }
@@ -1014,7 +1014,7 @@
             "sku": "fgd-5-007",
             "name": "logo",
             "price": 11.99,
-            "category": 5,
+            "category": 10,
             "rating": 4.1,
             "image": "logo_7.jpg"
         }
@@ -1110,7 +1110,7 @@
             "sku": "fgd-5-015",
             "name": "logo",
             "price": 13.49,
-            "category": 5,
+            "category": 10,
             "rating": 4.1,
             "image": "logo_15.jpg"
         }
@@ -1194,7 +1194,7 @@
             "sku": "fgd-5-022",
             "name": "logo",
             "price": 14.29,
-            "category": 5,
+            "category": 10,
             "rating": 4.1,
             "image": "logo_22.jpg"
         }
@@ -1374,7 +1374,7 @@
             "sku": "fgd-5-037",
             "name": "logo",
             "price": 9.99,
-            "category": 5,
+            "category": 9,
             "rating": 3.8,
             "image": "logo_37.jpg"
         }
@@ -1398,7 +1398,7 @@
             "sku": "fgd-5-039",
             "name": "logo",
             "price": 12.49,
-            "category": 5,
+            "category": 9,
             "rating": 4.1,
             "image": "logo_39.jpg"
         }
@@ -1422,7 +1422,7 @@
             "sku": "fgd-5-041",
             "name": "logo",
             "price": 12.29,
-            "category": 5,
+            "category": 9,
             "rating": 4.1,
             "image": "logo_41.jpg"
         }
@@ -1458,7 +1458,7 @@
             "sku": "fgd-5-044",
             "name": "logo",
             "price": 11.99,
-            "category": 5,
+            "category": 9,
             "rating": 4.1,
             "image": "logo_44.jpg"
         }
@@ -1494,7 +1494,7 @@
             "sku": "fgd-3-001",
             "name": "poster",
             "price": 27.99,
-            "category": 3,
+            "category": 10,
             "rating": 4.1,
             "image": "poster_1.jpg"
         }
@@ -1518,7 +1518,7 @@
             "sku": "fgd-3-003",
             "name": "poster",
             "price": 31.99,
-            "category": 3,
+            "category": 10,
             "rating": 4.1,
             "image": "poster_3.jpg"
         }
@@ -1602,7 +1602,7 @@
             "sku": "fgd-3-010",
             "name": "poster",
             "price": 33.99,
-            "category": 3,
+            "category": 10,
             "rating": 4.1,
             "image": "poster_10.jpg"
         }
@@ -1686,7 +1686,7 @@
             "sku": "fgd-3-017",
             "name": "poster",
             "price": 26.99,
-            "category": 3,
+            "category": 9,
             "rating": 4.1,
             "image": "poster_17.jpg"
         }
@@ -1758,7 +1758,7 @@
             "sku": "fgd-3-023",
             "name": "poster",
             "price": 24.99,
-            "category": 3,
+            "category": 9,
             "rating": 4.1,
             "image": "poster_23.jpg"
         }
@@ -1842,7 +1842,7 @@
             "sku": "fgd-6-004",
             "name": "banner",
             "price": 30.99,
-            "category": 6,
+            "category": 10,
             "rating": 4.1,
             "image": "web-banner_4.jpg"
         }
@@ -1914,7 +1914,7 @@
             "sku": "fgd-6-010",
             "name": "banner",
             "price": 31.50,
-            "category": 6,
+            "category": 10,
             "rating": 4.1,
             "image": "web-banner_10.jpg"
         }
@@ -1986,7 +1986,7 @@
             "sku": "fgd-6-017",
             "name": "banner",
             "price": 32.00,
-            "category": 6,
+            "category": 10,
             "rating": 4.1,
             "image": "web-banner_17.jpg"
         }
@@ -1998,7 +1998,7 @@
             "sku": "fgd-6-018",
             "name": "banner",
             "price": 27.99,
-            "category": 6,
+            "category": 9,
             "rating": 4.1,
             "image": "web-banner_18.jpg"
         }
@@ -2022,7 +2022,7 @@
             "sku": "fgd-6-020",
             "name": "banner",
             "price": 23.99,
-            "category": 6,
+            "category": 9,
             "rating": 4.1,
             "image": "web-banner_20.jpg"
         }
@@ -2046,7 +2046,7 @@
             "sku": "fgd-6-022",
             "name": "banner",
             "price": 32.99,
-            "category": 6,
+            "category": 10,
             "rating": 4.1,
             "image": "web-banner_22.jpg"
         }

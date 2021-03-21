@@ -16,9 +16,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?category=price" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?category=rating" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?category=category" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -28,10 +28,10 @@
                 Digital
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="digital-link">
-                <a href="" class="dropdown-item">Icon Sets</a>
-                <a href="" class="dropdown-item">Brand Logos</a>
-                <a href="" class="dropdown-item">Web Banners</a>
-                <a href="" class="dropdown-item">All Digital-Products</a>
+                <a href="{% url 'products' %}?category=icon_sets" class="dropdown-item">Icon Sets</a>
+                <a href="{% url 'products' %}?category=brand_logos" class="dropdown-item">Brand Logos</a>
+                <a href="{% url 'products' %}?category=web_banners" class="dropdown-item">Web Banners</a>
+                <a href="{% url 'products' %}?category=icon_sets,brand_logos,web_banners" class="dropdown-item">All Digital-Products</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Printables
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="printables-link">
-                <a href="" class="dropdown-item">Business Cards</a>
-                <a href="" class="dropdown-item">Leaflets &amp; Flyers</a>
-                <a href="" class="dropdown-item">Posters</a>
-                <a href="" class="dropdown-item">All Printables</a>
+                <a href="{% url 'products' %}?category=business_cards" class="dropdown-item">Business Cards</a>
+                <a href="{% url 'products' %}?category=leaflets_flyers" class="dropdown-item">Leaflets &amp; Flyers</a>
+                <a href="{% url 'products' %}?category=posters" class="dropdown-item">Posters</a>
+                <a href="{% url 'products' %}?category=business_cards,leaflets_flyers,posters" class="dropdown-item">All Printables</a>
             </div>
         </li>
 
@@ -52,9 +52,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Packages</a>
-                <a href="" class="dropdown-item">Sale Items</a>
-                <a href="" class="dropdown-item">All Items</a>
+                <a href="{% url 'products' %}?category=new_stock" class="dropdown-item">New Stock</a>
+                <a href="{% url 'products' %}?category=sale_items" class="dropdown-item">Sale Items</a>
+                <a href="{% url 'products' %}?category=new_stock,sale_items" class="dropdown-item">All Offers</a>
             </div>
         </li>
     </ul>

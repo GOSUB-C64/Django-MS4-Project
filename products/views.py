@@ -60,6 +60,7 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    # category_id = get_object_or_404(Category, pk=category_id)
 
     context = {
         'product': product,

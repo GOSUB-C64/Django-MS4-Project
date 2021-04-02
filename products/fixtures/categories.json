@@ -59,8 +59,8 @@
         "pk": 8,
         "model": "products.category",
         "fields": {
-            "name": "printables",
-            "friendly_name": "Printables"
+            "name": "print_media",
+            "friendly_name": "Print Media"
         }
     },
     {

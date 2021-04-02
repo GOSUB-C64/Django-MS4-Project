@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product, Category, Customer, Print_Media, Digital_Media
+from .models import Product, Category, Print_Media, Digital_Media
 
 # Register your models here.
 
@@ -25,22 +25,13 @@ class CategoryAdmin(admin.ModelAdmin):
     )
 
 
-class CustomerAdmin(admin.ModelAdmin):
-
-    list_display = (
-        'first_name',
-        'last_name',
-        'email',
-        'phone',
-    )
-
-
 class Print_MediaAdmin(admin.ModelAdmin):
 
     list_display = (
         'media',
         'size'
     )
+
 
 class Digital_MediaAdmin(admin.ModelAdmin):
 
@@ -52,6 +43,5 @@ class Digital_MediaAdmin(admin.ModelAdmin):
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
-admin.site.register(Customer, CustomerAdmin)
 admin.site.register(Print_Media, Print_MediaAdmin)
 admin.site.register(Digital_Media, Digital_MediaAdmin)

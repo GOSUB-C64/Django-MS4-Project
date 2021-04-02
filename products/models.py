@@ -11,7 +11,7 @@ class Print_Media(models.Model):
         ('leaflets_flyers', 'Leaflets & Flyers'),
         ('posters', 'Posters')
     )
-    media = models.CharField(max_length=20, choices=CATEGORY_CHOICES)
+    name = models.CharField(max_length=20, choices=CATEGORY_CHOICES)
 
     SIZE_CHOICES = (
         ('3.5x2.0', '3.5 x 2 inches'),
@@ -24,7 +24,7 @@ class Print_Media(models.Model):
     size = models.CharField(max_length=20, choices=SIZE_CHOICES)
 
     def __str__(self):
-        return self.media
+        return self.name
 
 
 class Digital_Media(models.Model):
@@ -37,7 +37,7 @@ class Digital_Media(models.Model):
         ('brand_logos', 'Brand Logos'),
         ('web_banners', 'Web Banners')
     )
-    media = models.CharField(max_length=20, choices=CATEGORY_CHOICES)
+    name = models.CharField(max_length=20, choices=CATEGORY_CHOICES)
 
     SIZE_CHOICES = (
         ('1616', '16 x 16 pixels'),
@@ -49,7 +49,7 @@ class Digital_Media(models.Model):
     size = models.CharField(max_length=20, choices=SIZE_CHOICES)
 
     def __str__(self):
-        return self.media
+        return self.name
 
 
 class Category(models.Model):
@@ -57,11 +57,12 @@ class Category(models.Model):
     class Meta:
         verbose_name_plural = 'Categories'
 
-    # name = models.CharField(max_length=254)
+    name = models.CharField(max_length=254, default="")
     # friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
     print_media = models.ForeignKey(
         'Print_Media', null=True, blank=True, on_delete=models.CASCADE)
+
     digital_media = models.ForeignKey(
         'Digital_Media', null=True, blank=True, on_delete=models.CASCADE)
 
@@ -99,7 +100,4 @@ class Customer(models.Model):
     phone = models.CharField(max_length=15, null=False, blank=False)
 
     def __str__(self):
-        return self.first_name
-
-
-
+        return self.first_name + ' ' + self.last_name

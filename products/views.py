@@ -13,6 +13,7 @@ def all_products(request):
     products = Product.objects.all()
     print_media = Print_Media.objects.all()
     digital_media = Digital_Media.objects.all()
+    print (products, print_media, digital_media)
     query = None
     categories = None
     sort = None
@@ -72,6 +73,7 @@ def product_detail(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     # category_id = get_object_or_404(Category, pk=category_id)
 
+    print (product)
     context = {
         'product': product,
     }

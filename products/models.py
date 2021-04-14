@@ -52,6 +52,18 @@ class Digital_Media(models.Model):
         return self.name
 
 
+class MediaType(models.Model):
+
+    MEDIA_TYPE = (
+        ('print_media', 'Print Media'),
+        ('digital_media', 'Digital Media'),
+    )
+    media_type = models.CharField(max_length=20, choices=MEDIA_TYPE, null=False)
+
+    def __str__(self):
+        return self.media_type
+
+
 class Category(models.Model):
 
     class Meta:
@@ -60,17 +72,14 @@ class Category(models.Model):
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
-    print_media = models.ForeignKey(
-        'Print_Media', null=True, blank=True, on_delete=models.CASCADE)
+    MEDIA_TYPE = (
+        ('print_media', 'Print Media'),
+        ('digital_media', 'Digital Media'),
+    )
+    media_type = models.CharField(max_length=20, choices=MEDIA_TYPE, null=False, default='print_media')
 
-    digital_media = models.ForeignKey(
-        'Digital_Media', null=True, blank=True, on_delete=models.CASCADE)
-
-    def get_print_media_type(self):
-        return self.print_media
-
-    def get_digital_media_type(self):
-        return self.digital_media
+    def __str__(self):
+        return self.media_type
 
     def __str__(self):
         return self.name
@@ -82,6 +91,8 @@ class Category(models.Model):
 class Product(models.Model):
     category = models.ForeignKey(
         'Category', null=True, blank=True, on_delete=models.SET_NULL)
+    is_print = models.BooleanField(null=False, default=True)
+    is_digital = models.BooleanField(null=False, default=False)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     price = models.DecimalField(max_digits=6, decimal_places=2)

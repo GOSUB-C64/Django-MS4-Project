@@ -11,7 +11,7 @@ class Print_Media(models.Model):
         ('leaflets_flyers', 'Leaflets & Flyers'),
         ('posters', 'Posters')
     )
-    name = models.CharField(max_length=20, choices=CATEGORY_CHOICES, default="Print Media")
+    name = models.CharField(max_length=20, choices=CATEGORY_CHOICES)
 
     SIZE_CHOICES = (
         ('3.5x2', '3.5 x 2 inches'),
@@ -21,10 +21,10 @@ class Print_Media(models.Model):
         ('5.8x4.1', '5.8 x 4.1 inches'),
         ('8.3x3.9', '8.3 x 3.9 inches'),
     )
-    size = models.CharField(max_length=20, choices=SIZE_CHOICES, default="Size")
+    size = models.CharField(max_length=20, choices=SIZE_CHOICES)
 
     def __str__(self):
-        return self.name
+        return self.category
 
 
 class Digital_Media(models.Model):
@@ -37,7 +37,7 @@ class Digital_Media(models.Model):
         ('brand_logos', 'Brand Logos'),
         ('web_banners', 'Web Banners')
     )
-    name = models.CharField(max_length=20, choices=CATEGORY_CHOICES, default="Digital_Media")
+    name = models.CharField(max_length=20, choices=CATEGORY_CHOICES)
 
     SIZE_CHOICES = (
         ('1616', '16 x 16 pixels'),
@@ -46,10 +46,13 @@ class Digital_Media(models.Model):
         ('128128', '128 x 128 pixels'),
         ('256256', '256 x 256 pixels')
     )
-    size = models.CharField(max_length=20, choices=SIZE_CHOICES, default="Size")
+    size = models.CharField(max_length=20, choices=SIZE_CHOICES)
 
     def __str__(self):
-        return self.name
+        return self.category
+
+    def get_size(self):
+        return self.size
 
 
 class MediaType(models.Model):
@@ -78,7 +81,7 @@ class Category(models.Model):
     )
     media_type = models.CharField(max_length=20, choices=MEDIA_TYPE, null=False, default='print_media')
 
-    def __str__(self):
+    def get_media_type(self):
         return self.media_type
 
     def __str__(self):

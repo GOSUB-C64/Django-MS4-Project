@@ -21,13 +21,15 @@ class CategoryAdmin(admin.ModelAdmin):
 
     list_display = (
         'media_type',
+        'name',
+        'friendly_name',
     )
 
 
 class Print_MediaAdmin(admin.ModelAdmin):
 
     list_display = (
-        'media',
+        'name',
         'size'
     )
 
@@ -35,9 +37,10 @@ class Print_MediaAdmin(admin.ModelAdmin):
 class Digital_MediaAdmin(admin.ModelAdmin):
 
     list_display = (
-        'media',
+        'name',
         'size'
     )
+
 
 class MediaTypeAdmin(admin.ModelAdmin):
 

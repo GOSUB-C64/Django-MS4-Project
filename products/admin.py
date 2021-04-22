@@ -30,7 +30,7 @@ class Print_MediaAdmin(admin.ModelAdmin):
 
     list_display = (
         'name',
-        'size'
+        'sizes'
     )
 
 
@@ -38,7 +38,7 @@ class Digital_MediaAdmin(admin.ModelAdmin):
 
     list_display = (
         'name',
-        'size'
+        'sizes'
     )
 
 

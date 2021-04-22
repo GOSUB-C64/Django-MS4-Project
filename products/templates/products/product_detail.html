@@ -48,10 +48,25 @@
                 {% else %}
                 <small class="text-muted">No Rating</small>
                 {% endif %}
+                
                 <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="col-6">
+                            {% with product.is_print_media as p %}
+                                {% if p %}
+                                    <div class="col-12">
+                                    <p><strong>Size:</strong></p>
+                                    <select class="form-control rounded-0 w-50" name="product_size" id="id_product_size">
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value="" selected></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                    </select>
+                                </div>
+                            {% endif %}
+                            {% endwith %}
                             <p class="mt-5"><strong>Quantity:</strong></p>
                             <div class="form-group">
                                 <div class="input-group mt-3">

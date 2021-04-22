@@ -21,10 +21,13 @@ class Print_Media(models.Model):
         ('5.8x4.1', '5.8 x 4.1 inches'),
         ('8.3x3.9', '8.3 x 3.9 inches'),
     )
-    size = models.CharField(max_length=20, choices=SIZE_CHOICES)
+    sizes = models.CharField(max_length=20, choices=SIZE_CHOICES)
 
     def __str__(self):
-        return self.category
+        return self.name
+
+    def get_size(self):
+        return self.sizes
 
 
 class Digital_Media(models.Model):
@@ -46,13 +49,13 @@ class Digital_Media(models.Model):
         ('128128', '128 x 128 pixels'),
         ('256256', '256 x 256 pixels')
     )
-    size = models.CharField(max_length=20, choices=SIZE_CHOICES)
+    sizes = models.CharField(max_length=20, choices=SIZE_CHOICES)
 
     def __str__(self):
-        return self.category
+        return self.name
 
     def get_size(self):
-        return self.size
+        return self.sizes
 
 
 class MediaType(models.Model):
@@ -94,8 +97,7 @@ class Category(models.Model):
 class Product(models.Model):
     category = models.ForeignKey(
         'Category', null=True, blank=True, on_delete=models.SET_NULL)
-    is_print = models.BooleanField(null=False, default=True)
-    is_digital = models.BooleanField(null=False, default=False)
+    is_print_media = models.BooleanField(null=False, default=False)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     price = models.DecimalField(max_digits=6, decimal_places=2)

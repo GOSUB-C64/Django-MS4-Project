@@ -48,23 +48,33 @@
                 {% else %}
                 <small class="text-muted">No Rating</small>
                 {% endif %}
-                
+
                 <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
                         <div class="col-6">
                             {% with product.is_print_media as p %}
-                                {% if p %}
-                                    <div class="col-12">
-                                    <p><strong>Size:</strong></p>
-                                    <select class="form-control rounded-0 w-50" name="product_size" id="id_product_size">
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                        <option value="" selected></option>
-                                        <option value=""></option>
-                                        <option value=""></option>
-                                    </select>
-                                </div>
+                            {% if p %}
+                            <div class="col-12">
+                                {{ p.size_choices }}
+                                <p><strong>Size:</strong></p>
+                                <select class="form-control rounded-0 w-50" name="product_size" id="id_product_size">
+                                    <option value="pm1">"3.5 x 2 inches"</option>
+                                    <option value="pm2">"2 x 3.5 inches"</option>
+                                    <option value="pm3">"11 x 8.5 inches"</option>
+                                    <option value="pm4">"8.3 x 5.8 inches"</option>
+                                    <option value="pm5">"5.8 x 4.1 inches"</option>
+                                    <option value="pm6">"8.3 x 3.9 inches"</option>
+                                </select>
+                            </div>
+                            {% else %}
+                                 <select class="form-control rounded-0 w-50" name="product_size" id="id_product_size">
+                                    <option value="dm1">"16 x 16 pixels"</option>
+                                    <option value="dm2">"32 x 32 pixels"</option>
+                                    <option value="dm3">"64 x 64 pixels"</option>
+                                    <option value="dm4">"128 x 128 pixels"</option>
+                                    <option value="dm5">"256 x 256 pixels"</option>
+                                </select>
                             {% endif %}
                             {% endwith %}
                             <p class="mt-5"><strong>Quantity:</strong></p>

@@ -82,7 +82,7 @@ class Category(models.Model):
         ('print_media', 'Print Media'),
         ('digital_media', 'Digital Media'),
     )
-    media_type = models.CharField(max_length=20, choices=MEDIA_TYPE, null=False, default='print_media')
+    media_type = models.CharField(max_length=20, choices=MEDIA_TYPE, null=False, default='none')
 
     def get_media_type(self):
         return self.media_type

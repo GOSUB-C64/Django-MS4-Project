@@ -51,8 +51,8 @@
         "pk": 7,
         "model": "products.category",
         "fields": {
-            "name": "digital",
-            "friendly_name": "Digital"
+            "name": "digital_media",
+            "friendly_name": "Digital Media"
         }
     },
     {

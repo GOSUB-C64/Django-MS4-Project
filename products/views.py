@@ -75,10 +75,13 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
-    print(product, print_media, digital_media)
+    # print(product, print_media, digital_media)
+    print(Print_Media.SIZE_CHOICES)
     context = {
         'product': product,
         'print_media': print_media,
         'digital_media': digital_media,
+        'category_choices': Print_Media.CATEGORY_CHOICES,
+        'size_choices': Print_Media.SIZE_CHOICES
     }
     return render(request, 'products/product_detail.html', context)

@@ -16,7 +16,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-002",
-            "name": "card",
+            "name": "business card",
             "price": 9.99,
             "category": 1,
             "rating": 3.9,
@@ -28,7 +28,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-003",
-            "name": "card",
+            "name": "business card",
             "price": 12.99,
             "category": 1,
             "rating": 4.7,
@@ -40,7 +40,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-004",
-            "name": "card",
+            "name": "business card",
             "price": 8.99,
             "category": 1,
             "rating": 4.7,
@@ -52,7 +52,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-005",
-            "name": "card",
+            "name": "business card",
             "price": 6.99,
             "category": 9,
             "rating": 4.7,
@@ -64,7 +64,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-006",
-            "name": "card",
+            "name": "business card",
             "price": 5.99,
             "category": 9,
             "rating": 4.7,
@@ -76,7 +76,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-007",
-            "name": "card",
+            "name": "business card",
             "price": 7.99,
             "category": 9,
             "rating": 4.7,
@@ -88,7 +88,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-008",
-            "name": "card",
+            "name": "business card",
             "price": 10.99,
             "category": 10,
             "rating": 4.7,
@@ -100,7 +100,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-009",
-            "name": "card",
+            "name": "business card",
             "price": 9.99,
             "category": 1,
             "rating": 4.7,
@@ -112,7 +112,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-010",
-            "name": "card",
+            "name": "business card",
             "price": 11.99,
             "category": 10,
             "rating": 4.7,
@@ -124,7 +124,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-011",
-            "name": "card",
+            "name": "business card",
             "price": 8.99,
             "category": 9,
             "rating": 4.7,
@@ -136,7 +136,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-012",
-            "name": "card",
+            "name": "business card",
             "price": 7.99,
             "category": 9,
             "rating": 4.7,
@@ -148,7 +148,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-013",
-            "name": "card",
+            "name": "business card",
             "price": 7.99,
             "category": 1,
             "rating": 4.7,
@@ -160,7 +160,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-014",
-            "name": "card",
+            "name": "business card",
             "price": 8.99,
             "category": 1,
             "rating": 4.7,
@@ -172,7 +172,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-015",
-            "name": "card",
+            "name": "business card",
             "price": 9.99,
             "category": 1,
             "rating": 4.7,
@@ -184,7 +184,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-016",
-            "name": "card",
+            "name": "business card",
             "price": 7.99,
             "category": 1,
             "rating": 4.7,
@@ -196,7 +196,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-017",
-            "name": "card",
+            "name": "business card",
             "price": 9.99,
             "category": 1,
             "rating": 4.7,
@@ -208,7 +208,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-018",
-            "name": "card",
+            "name": "business card",
             "price": 8.99,
             "category": 1,
             "rating": 4.7,
@@ -220,7 +220,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-019",
-            "name": "card",
+            "name": "business card",
             "price": 6.99,
             "category": 9,
             "rating": 4.7,
@@ -232,7 +232,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-020",
-            "name": "card",
+            "name": "business card",
             "price": 10.99,
             "category": 10,
             "rating": 4.7,
@@ -244,7 +244,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-021",
-            "name": "card",
+            "name": "business card",
             "price": 11.99,
             "category": 10,
             "rating": 4.7,
@@ -256,7 +256,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-022",
-            "name": "card",
+            "name": "business card",
             "price": 6.99,
             "category": 9,
             "rating": 4.7,
@@ -268,7 +268,7 @@
         "model": "products.product",
         "fields": {
             "sku": "fgd-1-023",
-            "name": "card",
+            "name": "business card",
             "price": 7.99,
             "category": 1,
             "rating": 4.7,

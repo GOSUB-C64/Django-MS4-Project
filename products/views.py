@@ -72,16 +72,22 @@ def product_detail(request, product_id):
 
     print_media = Print_Media.objects.all()
     digital_media = Digital_Media.objects.all()
+    media_type = Category.MEDIA_TYPE
 
     product = get_object_or_404(Product, pk=product_id)
 
-    # print(product, print_media, digital_media)
-    print(Print_Media.SIZE_CHOICES)
+    """ Setting the 'is_print_media' boolean in Product model
+    for media that is printable so that the template can render
+    the appropriate sizes to the customer """
+
+    print(product.is_print_media, media_type)
+
     context = {
         'product': product,
         'print_media': print_media,
         'digital_media': digital_media,
         'category_choices': Print_Media.CATEGORY_CHOICES,
-        'size_choices': Print_Media.SIZE_CHOICES
+        'size_choices': Print_Media.SIZE_CHOICES,
+        'media_type': Category.MEDIA_TYPE,
     }
     return render(request, 'products/product_detail.html', context)

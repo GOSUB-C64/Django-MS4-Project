@@ -56,28 +56,48 @@
                             <div class="col-12 p-0">
                                 {% with product.is_print_media as p %}
                                     {% if p %}
-                                        <p class="mt-3"><strong>Size:</strong></p>
-                                        <select class="form-control border-black rounded-0 w-50" name="product_size" id="id_product_size">
-                                            <option value="pm1">3.5 x 2 inches</option>
-                                            <option value="pm2">2 x 3.5 inches</option>
-                                            <option value="pm3">11 x 8.5 inches</option>
-                                            <option value="pm4">8.3 x 5.8 inches</option>
-                                            <option value="pm5">5.8 x 4.1 inches</option>
-                                            <option value="pm6">8.3 x 3.9 inches</option>
-                                        </select>
+                                        {% if product.category.name == "business_cards" %}
+                                            <p class="mt-3"><strong>Size:</strong></p>
+                                            <select class="form-control border-black rounded-0 w-50" name="product_size" id="id_product_size">
+                                                <option value="pm1">3.5 x 2 inches</option>
+                                                <option value="pm2">2 x 3.5 inches</option>
+                                            </select>
+                                        {% elif product.category.name == "leaflets_flyers" %}
+                                            <p class="mt-3"><strong>Size:</strong></p>
+                                            <select class="form-control border-black rounded-0 w-50" name="product_size" id="id_product_size">
+                                                <option value="pm3">11 x 8.5 inches</option>
+                                                <option value="pm4">8.3 x 5.8 inches</option>
+                                                <option value="pm5">5.8 x 4.1 inches</option>
+                                                <option value="pm6">8.3 x 3.9 inches</option>
+                                            </select>
+                                        {% else %}
+                                            <p class="mt-3"><strong>Size:</strong></p>
+                                            <select class="form-control border-black rounded-0 w-50" name="product_size" id="id_product_size">
+                                                <option value="pm_A1">A1 - 33.1 x 23.4 inches</option>
+                                                <option value="pm_A2">A2 - 23.4 x 16.5 inches</option>
+                                                <option value="pm_A3">A3 - 16.5 x 11.7 inches</option>
+                                                <option value="pm_A4">A4 - 11.7 x 8.3 inches</option>
+                                            </select>
+                                        {% endif %}
                                     {% else %}
-                                        <p class="mt-3"><strong>Size:</strong></p>
-                                        <select class="form-control border-black rounded-0 w-50" name="product_size" id="id_product_size">
-                                            <option value="dm1">16 x 16 pixels</option>
-                                            <option value="dm2">32 x 32 pixels</option>
-                                            <option value="dm3">64 x 64 pixels</option>
-                                            <option value="dm4">128 x 128 pixels</option>
-                                            <option value="dm5">256 x 256 pixels</option>
-                                        </select>
+                                        {% if product.category.name == "icon_sets" %}
+                                            <p class="mt-3"><strong>Size:</strong></p>
+                                            <select class="form-control border-black rounded-0 w-50" name="product_size" id="id_product_size">
+                                                <option value="dm1">16 x 16 pixels</option>
+                                                <option value="dm2">32 x 32 pixels</option>
+                                                <option value="dm3">64 x 64 pixels</option>
+                                                <option value="dm4">128 x 128 pixels</option>
+                                                <option value="dm5">256 x 256 pixels</option>
+                                            </select>
+                                            {% elif product.category.name == "brand_logos" %}
+                                                <p class="mt-3"><strong>Size:</strong></p>
+                                                <input type="number" class="py-3 mr-3" min="100" max="800" step="100" id="x_range" value="100">  X                                                  
+                                                <input type="number" class="py-3 mx-3" min="100" max="800" step="100" id="y_range" value="100"> Pixels                                                  
+                                        {% endif %}
                                     {% endif %}
                                 {% endwith %}
                             </div>
-                            <div class="col-6">
+                            <div class="col-6 p-0">
                             <p class="mt-3"><strong>Quantity:</strong></p>
                             <div class="form-group">
                                 <div class="input-group mt-3">
@@ -110,7 +130,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 p-0">
+                        <div class="col-12">
                             <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-2">
                                 <span class="icon">
                                     <i class="fas fa-chevron-left"></i>
@@ -133,10 +153,28 @@
 {% include 'products/includes/quantity_input_script.html' %}
 
 <script type="text/javascript">
+
     $(document).ready(function () {
         customer_note = $(".custNote");
         customer_note.hide(2000).show(1500);
     });
+
+    // $(document).ready(function(){
+    //     $('#ex6').on('change', function(e){
+    //         var id = e.target.value;            
+    //         document.getElementById("#id_product_size").innerHTML = id;
+    //     });
+    //     $('#ex6').change();
+    // });
+
+    var slider = document.getElementById("x_range");
+    var output = document.getElementById("x_range_input");
+    output.innerHTML = slider.value;
+
+    slider.oninput = function() {
+        output.innerHTML = this.value;
+    }
+
 </script>
 
 {% endblock %}

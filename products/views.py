@@ -88,14 +88,14 @@ def product_detail(request, product_id):
 
     all_items = Product.objects.all()
     for item in all_items:
-        if(item.name == 'business card' or item.name == 'business card' and item.category.name == 'sale_items'
-            or item.name == 'flyer' or item.name == 'flyer' and item.category.name == 'sale_items'
-                or item.name == 'poster' or item.name == 'poster' and item.category.name == 'sale_items'):
+        if(item.name == 'business card' or (item.name == 'business card' and item.category.name == 'sale_items')
+            or item.name == 'flyer' or (item.name == 'flyer' and item.category.name == 'sale_items')
+                or item.name == 'poster' or (item.name == 'poster' and item.category.name == 'sale_items')):
             item.is_print_media = True
             item.save()
-        elif(item.name == 'icon set' or item.name == 'icon set' and item.category.name == 'sale_items'
-                or item.name == 'brand logo' or item.name == 'brand logo' and item.category.name == 'sale_items'
-                or item.name == 'web banner' or item.name == 'web banner' and item.category.name == 'sale_items'):
+        elif(item.name == 'icon set' or (item.name == 'icon set' and item.category.name == 'sale_items')
+                or item.name == 'brand logo' or (item.name == 'brand logo' and item.category.name == 'sale_items')
+                or item.name == 'web banner' or (item.name == 'web banner' and item.category.name == 'sale_items')):
             item.is_print_media = False
             item.save()
 

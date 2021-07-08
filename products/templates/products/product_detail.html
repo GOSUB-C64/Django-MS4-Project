@@ -128,7 +128,8 @@
                                             {% else %}
                                                 <!-- Just display a '1' and this will be the quantity as digital media can be copied -->
                                                 <h4 class="border-black py-1 px-3" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">1</h4>
-                                            {% endif %}
+                                                <input type="hidden" name="quantity" value="1"/>
+                                                {% endif %}
                                         </div>  
                                     </div>
                                 </div>

@@ -31,6 +31,7 @@
                                     <th scope="col">Product Info</th>
                                     <th scope="col"></th>
                                     <th scope="col">Price</th>
+                                    <th scope="col">Size</th>
                                     <th scope="col">Qty</th>
                                     <th scope="col">Subtotal</th>
                                 </tr>
@@ -47,6 +48,19 @@
                                     </td>
                                     <td class="py-3">
                                         <p class="my-0">£{{ item.product.price }}</p>
+                                    </td>
+                                    <td class="py-3">
+                                        {% for key, value in print_media_sizes.items %}
+                                            {% if key == item.size %}
+                                                {{ value }}
+                                            {% endif %}
+                                        {% endfor %}
+
+                                        {% for key, value in digital_media_sizes.items %}
+                                            {% if key == item.size %}
+                                                {{ value }}
+                                            {% endif %}
+                                        {% endfor %}
                                     </td>
                                     <td class="py-3 w-25">
                                         <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
@@ -153,3 +167,8 @@
 </script>
 
 {% endblock %}
+
+
+
+
+

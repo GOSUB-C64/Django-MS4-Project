@@ -99,9 +99,9 @@ def product_detail(request, product_id):
             item.is_print_media = False
             item.save()
 
-    print(Product.objects.filter(is_print_media=True))
+    # print(Product.objects.filter(is_print_media=True))
 
-    print(product.is_print_media, media_type)
+    print('Print Media = ', product.is_print_media)
 
     context = {
         'product': product,

@@ -216,14 +216,25 @@ For example the size choices of Icon Sets in Digital Media range from 16 x 16 pi
 
 ## Automated
 
-+ Validators
+  - Validators
+
+HTML Validated
+<img src="docs/HTML Validated.png" width="500px" height="300px">
+
+CSS Validated
+
+The validaor picked up 2 errors only from Bootstrap tho.
+
+PEP8 Compliancy
+
+Due to time restrictions this section needs reviewing later
 
 
 <div id="man"></div>
 
 ## Manual
 
-+ 
+
 <div id="res"></div>
 
 ## Responsiveness
@@ -236,6 +247,29 @@ For example the size choices of Icon Sets in Digital Media range from 16 x 16 pi
 
 # Deployment
 
+[Freelance-Graphix-Designer](https://freelance-graphix-designer.herokuapp.com/)
+
+Site deployed to Heroku and all images and static files uploaded to Amazon Web Services (AWS) namely their 's3' service where you can store a miniumum amount of files for free.
+
+
+
+
 <div id="credits"></div>
 
+
 # Credits
+
+Images used in the creation of this site for its content were accrued from [Fiver](www.fiver.com) and some from [Unsplash](www.unsplash.com)
+
+Code - The project code was built upon 'Boutique_Ado' mini project from Code Institute. 
+The videos in the LMS in C.I. helped and guided me alot in the creation of my project. I really couldn't have done it in the time I had if I had not used these as strong support.
+
+Thanks to ...
+
+  - Mentor: Akshat Garg for his help and guidance on this project at the beginning and also 2BN-Chris_mentor for his guidance on what to focus on to get the project submitted - thanks guys! 
+
+  - My Family for being there and being a sounding board!
+
+  - Slack Channel for answering questions that were bugging me.
+
+  - Tutor Support for pointing me in the right direction with gentle nudges along the way. A million thankyous to Jo - Shirley - Scott - & Igor. You guys are amazing!

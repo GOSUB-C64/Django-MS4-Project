@@ -1,5 +1,5 @@
 # Freelance Graphix Designer
-<img src="freelance_graphix_designer/static/media/design-pic2.jpg" width="400px">
+<img src="media/freelance-graphic-designer.jpg" width="500px" height="300px">
 
 * Milestone Project #4
 
@@ -16,8 +16,8 @@
   + <a href="#dev">Developer's / Goals</a>
   + <a href="#wire">Wireframes</a>
 + <a href="#feats">Features</a>
-  + <a href="#feats">At present</a>
-  + <a href="#feats">In future</a>
+  + <a href="#present">At present</a>
+  + <a href="#future">In future</a>
 + <a href="#tech">Technologies used</a>
 + <a href="#tests">Testing</a>
   + <a href="#auto"> Automated</a>
@@ -32,6 +32,9 @@
 
 # Context
 This project is based around a graphics designer putting their services online to anyone who wants graphical work produced at a good competitive price.
+
+
+<div id="ux"></div>
 
 # UX
 
@@ -68,3 +71,171 @@ This project is based around a graphics designer putting their services online t
 + 
 
 ## The surface
+
+
+<div id="summary"></div>
+
+## Summary
+
++ This website has been designed with what the shop owner/designer can do for their online customers by  catering for their design needs whether it be digital or in print. The customer should be able to successfully purchase the product they need and the shop owner will have full administrative permissions to add, delete and update their products online.
+
+<div id="design"></div>
+
+## Design
++ Colours Used
+  
+  I opted to stay with a good contrastal pair of colours (black & white) because of the visual impact it has. Also the extra colours from the products lend themselves to the browsing experience.
+
++ Typography
+
+  The 'Lato' font from Google was used extensively for continuity and for its crisp and clear appearance throughout.
+
+<div id="user"></div>
+
+## User Stories / Goals
+
++ All User Stories are located below
+
+<img src="docs/MS4-User-Stories-FGD.png" width="500px" height="300px">
+
+<div id="dev"></div>
+
+## Developers' Goals
+
++ It has been my goal as the developer of this website to provide the ability for a graphics designer who has a marketable product to sell it online via the use of up-to-date modern digital technologies.
+
+<div id="wire"></div>
+
+## Wireframes
+
+<div id="feats"></div>
+
+# Features
+
++ This site features the ability to discern off the bat, what types of graphical design the designer is offering to the user. Namely, print media or digital media.
+
+
+<div id="present"></div>
+
+## At present
+
++ Print Media...
+
+  + Business Cards
+
+  + Leaflets and Flyers
+
+  + Posters
+
++ Digital Media...
+
+  + Icon Sets
+
+  + Brand/Logo Design
+
+  + Web Banners/Ads
+
+Each media category has their own unique size to choose from
+
+For example the size choices of Icon Sets in Digital Media range from 16 x 16 pixels to 256 x 256 pixels.
+
+<div id="future"></div>
+
+## In the future
+
++ For features in future upgrades of the site, I'd like to implement better communication with the prospective client (the customer) in that they can bring forward their ideas and the designer would 'hash out' a meaning design to suit with a limited number of revisions per design.
+
+<div id="tech"></div>
+
+# Technologies Used
+
+## Front-End
+
+  + Html - Is a mark-up language used to structure the main frontend of the site - it helps to 'layout' what you see in the finished product.
+
+  + CSS - Used to add certain 'styles' to your Html mark-up to make them look better
+
+  + Java-Script - was used to add functionality and versatility to the design of the site.
+
+  + jQuery - was used to manipulate the DOM easier than javascript
+
+  + Bootstrap - used to aid the look and feel of certain pages within the site and also to help with responsiveness of the site in various devices.
+
+## Back-End
+
+  + [Python Programming Language](https://www.python.org/)
+
+    - Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+
+  + [Django](https://www.djangoproject.com/)
+
+    - Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
+
+  + [Django-Allauth](https://django-allauth.readthedocs.io/en/latest/)
+
+    - Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
+
+  + [Stripe](http://www.stripe.com)
+
+    - Stripe offers payment processing software and application programming interfaces for e-commerce websites and mobile applications
+
+  + [Django-Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+
+    - Django-crispy-forms provides you with tags that will let you control the rendering behavior of your Django forms in a very elegant and DRY way.
+
+  + [Amazon Web Services AWS S3](https://aws.amazon.com/)
+
+    - Amazon Simple Storage Service (Amazon S3) is storage for the Internet. It is designed to make web-scale computing easier. Amazon S3 has a simple web services interface that you can use to store and retrieve any amount of data, at any time, from anywhere on the web.
+
+  + [Pillow](https://pypi.org/project/Pillow/)
+
+    - The Python Imaging Library (Pillow) adds image processing capabilities to your Python interpreter.
+
+  + [Jinja](https://jinja.palletsprojects.com/en/3.0.x/)
+
+    - Jinja is a fast, expressive, extensible templating engine. Special placeholders in the template allow writing code similar to Python syntax. Then the template is passed data to render the final document.
+
+  + [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+
+    - You use the AWS SDK for Python (Boto3) to create, configure, and manage AWS services, such as Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Simple Storage Service (Amazon S3). The SDK provides an object-oriented API as well as low-level access to AWS services.
+
+  + [Gunicorn](https://gunicorn.org/)
+
+    - Gunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX. It's a pre-fork worker model. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy.
+
+  + [Psycopg2](https://pypi.org/project/psycopg2/)
+
+    - Psycopg is the most popular PostgreSQL database adapter for the Python programming language.
+
+
+<div id="test"></div>
+
+# Testing
+
+<div id="auto"></div>
+
+## Automated
+
++ Validators
+
+
+<div id="man"></div>
+
+## Manual
+
++ 
+<div id="res"></div>
+
+## Responsiveness
+
+<div id="bugs"></div>
+
+## Bugs
+
+<div id="deploy"></div>
+
+# Deployment
+
+<div id="credits"></div>
+
+# Credits

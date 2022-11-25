@@ -1,1 +1,0 @@
-web: gunicorn freelance_graphix_designer.wsgi:application

@@ -6,6 +6,7 @@ backcall==0.2.0
 backports.entry-points-selectable==1.1.0
 bandit==1.7.0
 bleach==4.1.0
+boto3==1.26.17
 botocore==1.29.17
 certifi==2021.5.30
 cffi==1.14.6
@@ -82,6 +83,7 @@ requests==2.26.0
 requests-toolbelt==0.9.1
 rfc3986==1.5.0
 rope==0.19.0
+s3transfer==0.6.0
 SecretStorage==3.3.1
 Send2Trash==1.8.0
 six==1.16.0

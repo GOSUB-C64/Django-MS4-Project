@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
-ALLOWED_HOSTS = ['freelance-graphix-designer.herokuapp.com', 'localhost', '8000-gosubc64-djangoms4proje-zwj0tngiisi.ws-eu100.gitpod.io/', 'http://127.0.0.1:8000/']
+ALLOWED_HOSTS = ['freelance-graphix-designer.herokuapp.com', 'localhost', '8000-gosubc64-djangoms4proje-zwj0tngiisi.ws-eu100.gitpod.io/', 'http://127.0.0.1:8000/', '8000-gosubc64-djangoms4proje-zwj0tngiisi.ws-eu100.gitpod.io']
 
  # Add Render.com URL to allowed hosts
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')

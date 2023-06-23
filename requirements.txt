@@ -17,7 +17,7 @@ debugpy==1.4.3
 decorator==5.1.0
 defusedxml==0.7.1
 distlib==0.3.2
-Django==4.2.2
+Django==3.2
 docutils==0.17.1
 entrypoints==0.3
 filelock==3.0.12
@@ -75,6 +75,7 @@ pylint==2.10.2
 pyparsing==2.4.7
 pyrsistent==0.18.0
 python-dateutil==2.8.2
+pytz==2023.3
 PyYAML==5.4.1
 pyzmq==25.1.0
 r2c-py-ast==0.1.0b1

@@ -61,7 +61,6 @@ pkginfo==1.7.1
 platformdirs==2.3.0
 prometheus-client==0.11.0
 prompt-toolkit==3.0.20
-psycopg2==2.9.6
 ptyprocess==0.7.0
 pycodestyle==2.7.0
 pycparser==2.20
@@ -74,7 +73,7 @@ pyparsing==2.4.7
 pyrsistent==0.18.0
 python-dateutil==2.8.2
 PyYAML==5.4.1
-pyzmq==22.2.1
+pyzmq==25.1.0
 r2c-py-ast==0.1.0b1
 readme-renderer==29.0
 requests==2.26.0
